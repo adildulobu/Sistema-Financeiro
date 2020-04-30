@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    tools:context="com.firedevz.sistemadegestaofinanceira.activity.ActivityAdicionarProdutos">
+
+
+    <EditText
+        android:id="@+id/edtNomeProduto"
+        android:layout_width="match_parent"
+        android:background="@drawable/campo_curvo"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:ems="10"
+        android:hint="Nome do Produto"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/edtData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="@drawable/campo_curvo"
+        android:ems="10"
+        android:hint="01/02/2001"
+        android:inputType="date" />
+
+    <Spinner
+        android:id="@+id/spnCategoria"
+        android:layout_width="match_parent"
+        android:background="@drawable/campo_curvo"
+        android:layout_margin="3dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/edtPrazo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
+        android:background="@drawable/campo_curvo"
+        android:ems="10"
+        android:hint="Prazo: Ex: 12/10/2020"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtPreco"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/campo_curvo"
+            android:ems="10"
+            android:hint="Preço de Compra000,00MZN"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/edtPrecoVenda"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/campo_curvo"
+            android:ems="10"
+            android:hint="Preço de Venda"
+            android:inputType="number" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtQuantidade"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/campo_curvo"
+            android:ems="10"
+            android:hint="Quantidade"
+            android:inputType="numberDecimal" />
+
+        <Spinner
+            android:id="@+id/spnUnidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/campo_curvo" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edtNotificarEstoque"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:layout_weight="1"
+            android:background="@drawable/campo_curvo"
+            android:ems="10"
+            android:hint="Estoque Minimo"
+            android:inputType="number" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnAdicionarPro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#C42178"
+        android:text="Adicionar" />
+
+
+
+
+</LinearLayout>
+

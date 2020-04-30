@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_menu"
+            android:icon="@drawable/ic_menu"
+            android:title="Menu" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_clientes"
+            android:title="Clientes" />
+        <item
+            android:id="@+id/nav_fornecedores"
+            android:icon="@drawable/ic_fornecedor"
+            android:title="Fornecedores" />
+        <item
+            android:id="@+id/nav_configuracoes"
+            android:icon="@drawable/ic_configuracoes"
+            android:title="Configurações" />
+        <item
+            android:id="@+id/nav_ajuda"
+            android:icon="@drawable/ic_ajuda"
+            android:title="Ajuda" />
+        <item
+            android:id="@+id/nav_sobre"
+            android:icon="@drawable/ic_sobre"
+            android:title="Sobre" />
+        <item
+            android:id="@+id/nav_sair"
+            android:icon="@drawable/ic_sair"
+            android:title="Sair" />
+    </group>
+
+</menu>

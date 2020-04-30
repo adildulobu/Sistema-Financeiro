@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "988866992217",
+    "firebase_url": "https://sistema-de-gestao-financeira.firebaseio.com",
+    "project_id": "sistema-de-gestao-financeira",
+    "storage_bucket": "sistema-de-gestao-financeira.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:988866992217:android:0700f8c1bbf20a22",
+        "android_client_info": {
+          "package_name": "com.firedevz.sistemadegestaofinanceira"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "988866992217-uh9oe8863vtlnnqh440bbfrgkpspsk3s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.firedevz.sistemadegestaofinanceira",
+            "certificate_hash": "58b11e934db1424a3ed47fcb6a7966042d248a30"
+          }
+        },
+        {
+          "client_id": "988866992217-p41ok6lj1iecrqddf5veoej2iqa9chv0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9y2v8uOZVuaNKORX3ydViYWY_j2GKpRY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "988866992217-p41ok6lj1iecrqddf5veoej2iqa9chv0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

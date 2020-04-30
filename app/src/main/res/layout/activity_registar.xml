@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:layout_gravity="center_horizontal|center_vertical">
+
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/edtNomeCompleto"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edit_text_style"
+        android:hint="Nome Completo"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/edtCelular"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edit_text_style"
+        android:ems="10"
+        android:hint="Celular"
+        android:inputType="phone" />
+
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/edtEmail"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edit_text_style"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/edtEndereco"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edit_text_style"
+        android:ems="10"
+        android:hint="Endereço"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/edtSenha"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edit_text_style"
+        android:ems="10"
+        android:hint="Senha"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:layout_weight="1"
+        android:id="@+id/edtRepeteSenha"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/edit_text_style"
+        android:ems="10"
+        android:hint="Confirmar Senha"
+        android:inputType="textPassword" />
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/btnRegistar"
+        android:layout_width="303dp"
+        android:layout_height="58dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/registarbutton" />
+
+</LinearLayout>

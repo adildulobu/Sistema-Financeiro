@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.firedevz.sistemadegestaofinanceira">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.InicioActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ResetSenha" />
+        <activity android:name=".activity.RegistarActivity" />
+        <activity android:name=".LoginFacebook" />
+        <activity android:name=".LoginGmail" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity
+            android:name=".activity.ActivityVendas"
+            android:label="@string/title_activity_vendas" />
+        <activity
+            android:name=".MenuPrincipal"
+            android:label="@string/title_activity_menu_principal"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".Producao"
+            android:label="@string/title_activity_producao" />
+        <activity
+            android:name=".Entradas"
+            android:label="@string/title_activity_entradas" />
+        <activity
+            android:name=".activity.RendimentosActivity"
+            android:label="@string/title_activity_rendimentos" />
+        <activity
+            android:name=".activity.EfectuarVendasActivity"
+            android:label="@string/title_activity_efectuar_vendas" />
+        <activity
+            android:name=".activity.ActivityProdutos"
+            android:label="@string/title_activity_produtos" />
+        <activity
+            android:name=".activity.ActivityAdicionarProdutos"
+            android:label="@string/title_activity_adicionar_produtos" />
+        <activity
+            android:name=".activity.activityListaProdutos"
+            android:label="@string/title_activity_lista_produtos" />
+        <activity
+            android:name=".activity.ActivityFundos"
+            android:label="@string/title_activity_fundos"></activity>
+    </application>
+
+</manifest>

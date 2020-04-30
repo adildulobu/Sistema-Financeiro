@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:padding="10dp"
+    tools:context="com.firedevz.sistemadegestaofinanceira.MenuPrincipal"
+    tools:showIn="@layout/app_bar_menu_principal"
+    android:layout_gravity="center_horizontal|center_vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnVendas"
+            android:layout_width="125dp"
+            android:layout_margin="10dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/ic_vendas" />
+
+        <Button
+            android:id="@+id/btnFundos"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_fundos" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnClientes"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/ic_cliente" />
+
+        <Button
+            android:id="@+id/btnProdutos"
+            android:layout_width="125dp"
+            android:layout_margin="10dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/ic_produtos" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnProducao"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            android:background="@drawable/ic_produca" />
+
+        <Button
+            android:id="@+id/btnRelatorio"
+            android:layout_width="125dp"
+            android:layout_height="125dp"
+            android:layout_margin="10dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="1"
+            android:background="@drawable/ic_relatorio" />
+    </LinearLayout>
+
+
+</LinearLayout>

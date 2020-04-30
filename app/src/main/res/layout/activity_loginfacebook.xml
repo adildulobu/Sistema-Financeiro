@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnEntrar"
+        android:layout_width="303dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="114dp"
+        android:background="@drawable/entrarbutton" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edtEmailGmail"
+        android:layout_alignLeft="@+id/edtEmailGmail"
+        android:layout_alignStart="@+id/edtEmailGmail"
+        android:text="E-mail" />
+
+    <EditText
+        android:id="@+id/edtEmailGmail"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView13"
+        android:layout_alignLeft="@+id/edtSenhaGmail"
+        android:layout_alignStart="@+id/edtSenhaGmail"
+        android:layout_marginBottom="31dp"
+        android:background="@drawable/edit_text_style"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/edtSenhaGmail"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnEntrar"
+        android:layout_alignLeft="@+id/btnEntrar"
+        android:layout_alignStart="@+id/btnEntrar"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/edit_text_style"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edtSenhaGmail"
+        android:layout_alignLeft="@+id/edtSenhaGmail"
+        android:layout_alignStart="@+id/edtSenhaGmail"
+        android:text="Senha" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        app:srcCompat="@drawable/facebookpng" />
+
+</RelativeLayout>
